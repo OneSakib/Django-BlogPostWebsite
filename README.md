@@ -1,14 +1,23 @@
-# Django-BlogPostWebsite
-Django-BlogPostWebsite is a website which is build in django python framework
-This is Simple Blog
-which is build in  Djnago
-To use this you install the python 3.9 or latest version
-after install add the path into the OS path manager
-and install django 
-To install Django 
-open the command and type the Command
-"pip install django"
-afte install django open the porject and open the command and type the command 
-"python manage.py"
-make sure you open the terminal in the file manage.py then open your browser and type the localhost url in the browser
-line see in the temoinal after run the server
+[![Python 3.10 ](https://img.shields.io/badge/python-3.10-yellow.svg)](https://www.python.org/downloads/release/python-3105/)
+![Django 4 ](https://img.shields.io/badge/Django-4.0-green.svg)
+# Blog Post
+
+## Installation
+
+**1.clone Repository & Install Packages**
+```sh
+git clone https://github.com/OneSakib/<repo_name>.git
+pip install -r requirements.txt
+```
+**2.Setup Virtualenv**
+```sh
+virtualenv env
+source env/bin/activate
+```
+**3.Migrate & Start Server**
+```sh
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
+
